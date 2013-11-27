@@ -5,8 +5,9 @@ Ukázkový client v php pro komunikaci s importním rozhraním realitymix.
 
 Dokumentaci k rozhraní naleznete na adrese: http://realitymix.centrum.cz/import/documentation/xml-rpc/
 
-Ukázka přihlášení do rozhraní importního rozhraní:
+Ukázka přihlášení do importního rozhraní:
 
+	<?php
 	require_once dirname(__FILE__) . '../Rmix/LoggerInterface.php';
 	require_once dirname(__FILE__) . '../Rmix/StdOutLogger.php';
 	require_once dirname(__FILE__) . '../Rmix/Client.php';
